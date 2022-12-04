@@ -45,7 +45,7 @@ else:
     letter_grade = "F"
 
 
-print("Exam: " + sep="," , *grades)
+print("Exam: " , sep="," , *grades)
 
 print("Average: ", (avg))
 
